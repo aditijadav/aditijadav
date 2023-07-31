@@ -1,0 +1,116 @@
+/* .container {
+	background-color: black;
+	width: 100%;
+}
+
+.gridbox {
+	width: 75%;
+	background-color: rgb(0, 0, 0);
+
+
+}
+
+.row {
+	width: 100%;
+	gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr, 3, 1fr);
+	grid-gap: 10px;
+
+}
+
+.row .item {
+	height: 200px;
+	background-color: bisque;
+
+
+}
+
+.item {
+	background-color: aqua;
+}
+
+grid-container {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-gap: 10px;
+	max-width: 600px;
+}
+
+.grid-item {
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+	{
+	background-color: #eaeaea;
+} */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+.header {
+	text-align: center;
+	padding: 32px;
+}
+
+.row {
+	display: -ms-flexbox;
+	/* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap;
+	/* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+	-ms-flex: 20%;
+	/* IE10 */
+	flex: 20%;
+	max-width: 20%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.nav-right-menu {
+	color: white;
+}
+
+.nav-menu-link {
+	text-decoration: none;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	.column {
+		-ms-flex: 50%;
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 100%;
+	}
+}

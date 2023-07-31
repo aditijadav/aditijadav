@@ -1,0 +1,111 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	background-color: whitesmoke;
+	width: 320px;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .05);
+	padding: 25px;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 10px;
+}
+
+.title img {
+	width: 50px;
+	height: 50px;
+}
+
+.choose {
+	color: aqua;
+
+}
+
+.text {
+	display: flex;
+	align-items: center;
+	flex-flow: nowrap;
+	width: 100%;
+	gap: 8px;
+	margin-top: 100px;
+	font-family: roboto;
+}
+
+.imagesidebar {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+.leftbar {
+	display: flex;
+	width: calc(100% - 320px);
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+form {
+	background-color: rgb(214, 241, 249);
+	width: 320px;
+	display: flex;
+	gap: 10px;
+	/* position: absolute; */
+	flex-flow: row wrap;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .05);
+	padding: 25px;
+	top: 45%;
+	left: 45%;
+	font-family: roboto;
+
+}
+
+.image2 {
+	width: 151px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.image2 img {
+	width: 100%;
+	height: 100%;
+
+}
+
+.main {
+	position: relative;
+	width: 100%;
+	display: flex;
+}
+
+.inputbox {
+	background-color: rgb(200, 252, 234);
+	/* border-radius: 5px; */
+	/* border: solid 1px #e3e3e3; */
+}
+
+.inputbox label {
+	width: 100%;
+	padding: 10px 0 0 10px;
+	font-size: 14px;
+}
+
+.inputbox input {
+	width: 100%;
+}

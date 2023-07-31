@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<style>
+			* {
+				margin:0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			.main{
+				padding: 15px;
+
+			}
+
+			.header {
+				width: 100%;
+				display: flex;
+				gap: 20px;
+			}
+
+			.header .logo {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 15%;
+				background-color: black;
+				height: 100px;
+				text-align: center;
+			}
+
+			.header .red {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				background-color: rgb(68, 0, 255);
+				flex-grow: 1;
+			}
+
+			.bannersection .black {
+				background-color: black;
+				width: 100%;
+				margin-top: 15px;
+				height: 130px;
+
+			}
+
+			.aboutus .blue {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 50%;
+
+				background-color: rgb(0, 213, 255);
+				/* flex-grow: 1; */
+				width: 33.33%;
+			}
+
+			.aboutus {
+				display: flex;
+				flex-flow: row wrap;
+				gap: 15px
+			}
+
+			.aboutus .pink {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: rgb(255, 0, 132);
+				flex: 1;
+				margin-top: 20px;
+			}
+
+			.aboutus .purple {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 25%;
+
+				background-color: rgb(255, 0, 247);
+				/* flex-grow: 1; */
+
+			}
+			.pink div{
+				flex: 1;
+			}
+			.pink.green {
+				background-color: green;
+			}
+			.imageGallery .mansi {
+
+				background-color: brown;
+				width: 100%;
+        height: 200px;
+				margin-top: 20px;
+
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="container">
+				<div class="header">
+					<div class="logo"> Logo </div>
+					<div class="red"> red </div>
+				</div>
+				<div class="bannersection">
+					<div class="black">black</div>
+				</div>
+				<div class="aboutus" width="100%">
+					<div class="pink" style="background-color: aqua; gap: 10px;">
+						<div style="background-color: black; height: 200px; width: 200px;">12</div>
+						<div style="background-color: green;">12</div>
+					</div>
+					<div class="pink">pink</div>
+				</div>
+					<div class="imageGallery">
+						<div class="mansi">mansi</div>
+					</div>
+			</div>
+		</div>
+	</body>
+
+</html>
