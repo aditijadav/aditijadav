@@ -1,0 +1,75 @@
+* {
+
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.banner {
+	width: 100%;
+	background-image: url("../images/PPT-UPDATED.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.logo {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.text h1 {
+	font-size: 124px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+}
+
+.rectangle {
+	width: 100%;
+	background-color: #03777e;
+	padding: 50px;
+	color: white;
+	font-size: 82px;
+	font-family: 'Montserrat',
+		sans-serif;
+	font-weight: 800;
+	margin-top: 50px;
+	line-height: 103px;
+}
+
+.img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 300px;
+}
+
+.img img {
+	width: 100%;
+	height: auto;
+}
+
+.banner2 {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.text2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	left: 0;
+	bottom: 0;
+}

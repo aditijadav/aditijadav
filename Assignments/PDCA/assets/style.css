@@ -1,0 +1,163 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+.main {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background: linear-gradient(107deg, #F2F7FD 0%, #B4D6FD 100%);
+	height: 100vh;
+}
+
+.circle1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.circle2 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.logo img {
+	position: absolute;
+	display: flex;
+	margin-top: 60px;
+	left: 60px;
+	width: 218px;
+	height: 78px;
+}
+
+.text1 img {
+	/* align-items: center;
+	justify-content: center; */
+	margin-top: 340px;
+	margin-left: 60px;
+	padding: 20px;
+
+}
+
+.text2 img {
+	margin-left: 60px;
+	padding: 30px;
+}
+
+.formbox {
+	width: 30%;
+	height: 25%;
+	border-radius: 20px;
+	background: #B4D6FD;
+	border: 2px solid;
+	margin-left: 20px;
+
+}
+
+.formbox {
+	position: absolute;
+	top: 350px;
+	right: 500px;
+	width: 20%;
+}
+
+.formbox .form {
+	margin-left: 20px;
+}
+
+/* my css */
+.textBox {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	padding: 0 60px;
+	gap: 30px;
+}
+
+.titlebox {
+	width: 50%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.formBox {
+	width: calc(100% - 53%);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 54px;
+	font-weight: 700;
+	width: 100%;
+}
+
+.textBox p {
+	font-size: 24px;
+	color: #B7B7B7;
+	line-height: 30px;
+	margin-top: 30px;
+}
+
+form {
+	padding: 40px;
+	background-color: #B4D6FD;
+	border-radius: 10px;
+	width: 480px;
+	z-index: 1;
+	display: flex;
+	gap: 25px;
+	flex-flow: row wrap;
+}
+
+.inputBox {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	gap: 10px;
+}
+
+.inputBox label {
+	width: 100%;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.inputBox input {
+	padding: 0 15px;
+	border-radius: 5px;
+	background-color: #D7E4F9;
+	border: none;
+	outline: none;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	font-size: 16px;
+}
+
+.btn button {
+	width: 100%;
+	padding: 0 15px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	font-size: 16px;
+	background-color: rgb(61, 55, 103);
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	gap: 10px;
+	color: #F2F7FD;
+}

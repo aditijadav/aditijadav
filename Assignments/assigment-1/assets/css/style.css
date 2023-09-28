@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header Css Start */
+header {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+}
+
+header .logo {
+	display: flex;
+	width: 100px;
+	height: 50px;
+	background-color: red;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+section.banner {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
